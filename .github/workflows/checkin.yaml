@@ -27,3 +27,4 @@ jobs:
         SMZDM_COOKIE: ${{ secrets.SMZDM_COOKIE }}
         QMSGKEY: ${{ secrets.QMSGKEY }}
       run: go build -o checkin checkin.go && ./checkin
+ test
